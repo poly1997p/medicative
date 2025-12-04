@@ -66,5 +66,9 @@ class FrontendController extends Controller
     public function testimonials(){
         return view('frontend.testimonials');
     }
+
+    public function contact(){
+        return view('frontend.contact');
+    }
    
 }

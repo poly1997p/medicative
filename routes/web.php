@@ -20,4 +20,5 @@ Route::get('/shop-single',[FrontendController::class, 'shopSingle']);
 Route::get('/shop-cart',[FrontendController::class, 'shopCart']);
 Route::get('/shop-checkout',[FrontendController::class, 'shopCheckout']);
 Route::get('/testimonials',[FrontendController::class, 'testimonials']);
+Route::get('/contact',[FrontendController::class, 'contact']);
 

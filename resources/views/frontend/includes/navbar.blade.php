@@ -102,7 +102,7 @@
                                  </ul>
                              </li>
                              <li class="dropdown">
-                                 <a href="#" role="button" aria-haspopup="true" aria-expanded="true"><span
+                                 <a href="{{url('/contact')}}" role="button" aria-haspopup="true" aria-expanded="true"><span
                                          data-hover="Contact">Contact <i class="fa fa-angle-down"
                                              aria-hidden="true"></i></span></a>
                              </li>

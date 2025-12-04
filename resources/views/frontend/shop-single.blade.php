@@ -1,7 +1,7 @@
 @extends('frontend.master')
 @section('content')
     
-    <section class="inner-bg over-layer-black" style="background-image: url('img/bg/4.jpg')">
+    <section class="inner-bg over-layer-black" style="background-image: url('{{asset('frontend/img/bg/4.jpg')}}')">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
@@ -21,7 +21,7 @@
           <div class="col-md-10 col-md-offset-1">
             <div class="blog-item">
                 <div class="blog-images">
-                    <div class="blog-img"><a href="#"><img src="img/shop/b2.jpg" alt=""></a></div>
+                    <div class="blog-img"><a href="#"><img src="{{asset('frontend/img/shop/b2.jpg')}}" alt=""></a></div>
                 </div>
                 <div class="blog-content">
                     <a href="#"><h4>Your Title Here</h4></a>
@@ -74,7 +74,7 @@
                                 <h4>Best PRODUCTS</h4>
                             </div>
                             <div class="product-item">
-                                <a href="#"><img src="img/shop/b1.jpg" alt="" />
+                                <a href="#"><img src="{{asset('frontend/img/shop/b1.jpg')}}" alt="" />
                                 <span>$ 60 /<sub>Only</sub></span>
                                 <p>SAVE UP TO 25% OFF</p>
                                 </a>
@@ -86,7 +86,7 @@
                             </div>
                             <div class="shop-single-item">
                                 <div class="shop-sell-item">
-                                    <img alt="#" src="img/shop/1.jpg">
+                                    <img alt="#" src="{{asset('frontend/img/shop/1.jpg')}}">
                                 </div>
                                 <div class="shop-sell-details">
                                     <h5><a href="#">Your Title Here</a></h5>
@@ -102,7 +102,7 @@
                             </div>
                             <div class="widget">
                                 <div class="shop-sell-item">
-                                    <img alt="#" src="img/shop/2.jpg">
+                                    <img alt="#" src="{{asset('frontend/img/shop/2.jpg')}}">
                                 </div>
                                 <div class="shop-sell-details">
                                     <h5><a href="#">Boys T-shirt</a></h5>
@@ -169,7 +169,7 @@
                 <div class="col-md-9">
                     <div class="shop-right-area">
                         <div class="shop-banner">
-                            <img src="img/shop/bg1.jpg" alt="" />
+                            <img src="{{asset('frontend/img/shop/bg1.jpg')}}" alt="" />
                         </div>
                         <div class="shop-tab-area">
                             <!--NAV PILL-->
@@ -218,7 +218,7 @@
                                         <div class="product-item">
                                             <div class="product-image">
                                                 <a class="product-img" href="#">
-                                                    <img class="primary-img" src="img/shop/s4.jpg" alt="" />
+                                                    <img class="primary-img" src="{{asset('frontend/img/shop/s4.jpg')}}" alt="" />
                                                 </a>
                                             </div>
                                             <span class="on-sale">
@@ -260,7 +260,7 @@
                                         <div class="product-item">
                                             <div class="product-image">
                                                 <a class="product-img" href="#">
-                                                    <img class="primary-img" src="img/shop/s5.jpg" alt="" />
+                                                    <img class="primary-img" src="{{asset('frontend/img/shop/s5.jpg')}}" alt="" />
                                                 </a>
                                             </div>
                                             <span class="on-sale">
@@ -302,7 +302,7 @@
                                         <div class="product-item">
                                             <div class="product-image">
                                                 <a class="product-img" href="#">
-                                                    <img class="primary-img" src="img/shop/s6.jpg" alt="" />
+                                                    <img class="primary-img" src="{{asset('frontend/img/shop/s6.jpg')}}" alt="" />
                                                 </a>
                                             </div>
                                             <span class="on-sale">
@@ -344,7 +344,7 @@
                                         <div class="product-item">
                                             <div class="product-image">
                                                 <a class="product-img" href="#">
-                                                    <img class="primary-img" src="img/shop/s1.jpg" alt="" />
+                                                    <img class="primary-img" src="{{asset('frontend/img/shop/s1.jpg')}}" alt="" />
                                                 </a>
                                             </div>
                                             <span class="on-sale">
@@ -386,7 +386,7 @@
                                         <div class="product-item">
                                             <div class="product-image">
                                                 <a class="product-img" href="#">
-                                                    <img class="primary-img" src="img/shop/s2.jpg" alt="" />
+                                                    <img class="primary-img" src="{{asset('frontend/img/shop/s2.jpg')}}" alt="" />
                                                 </a>
                                             </div>
                                             <span class="on-sale">
@@ -428,7 +428,7 @@
                                         <div class="product-item">
                                             <div class="product-image">
                                                 <a class="product-img" href="#">
-                                                    <img class="primary-img" src="img/shop/s3.jpg" alt="" />
+                                                    <img class="primary-img" src="{{asset('frontend/img/shop/s3.jpg')}}" alt="" />
                                                 </a>
                                             </div>
                                             <span class="on-sale">
@@ -470,7 +470,7 @@
                                         <div class="product-item">
                                             <div class="product-image">
                                                 <a class="product-img" href="#">
-                                                    <img class="primary-img" src="img/shop/s4.jpg" alt="" />
+                                                    <img class="primary-img" src="{{asset('frontend/img/shop/s4.jpg')}}" alt="" />
                                                 </a>
                                             </div>
                                             <span class="on-sale">
@@ -512,7 +512,7 @@
                                         <div class="product-item">
                                             <div class="product-image">
                                                 <a class="product-img" href="#">
-                                                    <img class="primary-img" src="img/shop/s5.jpg" alt="" />
+                                                    <img class="primary-img" src="{{asset('frontend/img/shop/s5.jpg')}}" alt="" />
                                                 </a>
                                             </div>
                                             <span class="on-sale">
@@ -554,7 +554,7 @@
                                         <div class="product-item">
                                             <div class="product-image">
                                                 <a class="product-img" href="#">
-                                                    <img class="primary-img" src="img/shop/s6.jpg" alt="" />
+                                                    <img class="primary-img" src="{{asset('frontend/img/shop/s6.jpg')}}" alt="" />
                                                 </a>
                                             </div>
                                             <span class="on-sale">
@@ -598,7 +598,7 @@
                                         <div class="col-md-12">
                                             <div class="shop-list-single shop-product-item-area">
                                                 <div class="shop-list-left-content">
-                                                    <a href="#"><img src="img/shop/s5.jpg" alt="" /></a>
+                                                    <a href="#"><img src="{{asset('frontend/img/shop/s5.jpg')}}" alt="" /></a>
                                                     <span class="shop-cart-icon">
                                                         <a href="#"><i class="fa fa-shopping-bag"></i></a>
                                                     </span>
@@ -625,7 +625,7 @@
                                         <div class="col-md-12">
                                             <div class="shop-list-single shop-product-item-area">
                                                 <div class="shop-list-left-content">
-                                                    <a href="#"><img src="img/shop/s4.jpg" alt="" /></a>
+                                                    <a href="#"><img src="{{asset('frontend/img/shop/s4.jpg')}}" alt="" /></a>
                                                     <span class="shop-cart-icon">
                                                         <a href="#"><i class="fa fa-shopping-bag"></i></a>
                                                     </span>
@@ -652,7 +652,7 @@
                                         <div class="col-md-12">
                                             <div class="shop-list-single shop-product-item-area">
                                                 <div class="shop-list-left-content">
-                                                    <a href="#"><img src="img/shop/s6.jpg" alt="" /></a>
+                                                    <a href="#"><img src="{{asset('frontend/img/shop/s6.jpg')}}" alt="" /></a>
                                                     <span class="shop-cart-icon">
                                                         <a href="#"><i class="fa fa-shopping-bag"></i></a>
                                                     </span>
@@ -679,7 +679,7 @@
                                         <div class="col-md-12">
                                             <div class="shop-list-single shop-product-item-area">
                                                 <div class="shop-list-left-content">
-                                                    <a href="#"><img src="img/shop/s5.jpg" alt="" /></a>
+                                                    <a href="#"><img src="{{asset('frontend/img/shop/s5.jpg')}}" alt="" /></a>
                                                     <span class="shop-cart-icon">
                                                         <a href="#"><i class="fa fa-shopping-bag"></i></a>
                                                     </span>
@@ -714,7 +714,7 @@
     </section>
 
    <!-- divider start -->
-    <section class="service-area over-layer-default" style="background-image:url(img/bg/5.jpg);">
+    <section class="service-area over-layer-default" style="background-image:url({{asset('frontend/img/bg/5.jpg')}});">
         <div class="container padding-bottom-none padding-top-40">
             <div class="section-content">
                 <div class="row">
